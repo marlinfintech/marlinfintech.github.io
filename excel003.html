@@ -9,97 +9,105 @@
  <style>
 html,body{height:100%;width:100%;margin:0;font-size:1.2rem;font-family:serif;word-spacing:0.3rem; line-height:1.5;scroll-behavior: smooth}
 
-.logo{display: block;margin: 0 auto 0; max-width: 120px; height: auto;}
+body{background:#31FF0D}
 
-h3 a{color:inherit;}
+.excelgrid{flex:1;display:flex;flex-direction:column; gap:0;margin-top:0}
 
-.excelcard001,.excelcard002,.excelcard003,.excelcard004, p{text-align: center; color:#1874CD; font-family:serif;word-spacing:2px; line-height:1.5;font-weight:normal; padding:0.5rem;}
+.headergap{display: flex;flex-direction: column;}
 
-.excelcontainer{flex:1;display:flex;flex-direction:column;word-wrap:break-word;overflow:hidden;padding:0;gap:1rem ;margin:0}
+.logocontainer{background:linear-gradient(to top, #FFD700 90%, #31FF0D);}
 
-.excelcontainer{background:linear-gradient(to top, #FFD700 90%, #31FF0D);}
+.logo{display: block;margin: 0 auto; max-width: 120px; max-height: 120px;padding-bottom:0} 
 
-.excelheader{ background:#FFD700;text-align:center; display:flex;gap:0.125rem;justify-content: center}
+.excelheader{background:#FFD700 ;text-align:center; display:flex;gap:0.125rem;justify-content: center;padding:0 auto;margin:0 auto;padding: auto 0;margin: auto 0}
+
+.excelbutton,.otherbuttons{margin:0 auto;padding:0 auto;margin: auto 0}
+
+h5 a{color:inherit;}
+
+.excelcard001,.excelcard002,.excelcard003,.excelcard004, p{text-align: center; color:#1874CD; font-family:serif;word-spacing:2px; line-height:1.5;font-weight:normal; padding-left: 2rem;padding-right: 2rem}
+
+.excelcontainer{flex:1;display:flex;flex-direction:column;word-wrap:break-word;overflow:hidden;padding:1rem;gap:0 ;margin-top:0;padding-top:0;padding-left:0;padding-right:0;padding-bottom:0;}
 
 .excelbutton{background: #CCCCCC;color:#FF8C00; font-weight:bold; padding-left: 1rem; padding-right: 1rem;border-left: 0.5rem outset #31FF0D;
-border-right: 0.5rem inset #31FF0D;border-top: 0.125rem groove #31FF0D;border-bottom: 0.5rem ridge #31FF0D}
+border-right: 0.5rem inset #31FF0D;border-top: 0.5rem ridge #31FF0D;border-bottom: 0.5rem inset #31FF0D}
 
-.otherbuttons{color: #B23AEE;font-weight:bold; padding-left: 1rem; padding-right: 1rem;border-left: 0.5rem outset #31FF0D;
-border-right: 0.5rem inset #31FF0D;border-top: 0.125rem groove #31FF0D;border-top: 0.5rem ridge #31FF0D;background: #CCCCCC}
+.otherbuttons{color: #B23AEE;font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem outset #31FF0D;
+border-right: 0.5rem inset #31FF0D;border-bottom: 0.5rem ridge #31FF0D;border-top: 0.5rem ridge #31FF0D;background: #CCCCCC}
 
-.excelprojects{background: #31FF0D; display:flex;flex-direction:column;gap:0.25rem;flex:5}
+.excelprojects{background: #31FF0D; display:flex;flex-direction:column;gap:0.25rem;flex:5;justify-content:center;gap:0.25rem;margin-top: 1rem}
 
-.excelcard001,.excelcard002,.excelcard003,.excelcard004{background:linear-gradient(to top, #FFD700 85%, #FF8C00);text-align: center;padding: 0;margin: 0;}
+.excelcard001,.excelcard002,.excelcard003,.excelcard004{background:linear-gradient(to top, #FFD700 85%, #FF8C00);text-align: center;}
 
-.excelprojects h4{color:#1874CD; font-weight:bold;}
+.excelprojects h5{color:#1874CD; font-weight:bold;}
 
-.imagegrid{display: flex;flex:10;flex-direction: column;gap:1rem;width:100%;height:100%;padding: 0;margin: 0}
+ul{list-style:none ;text-align:center;padding:0}
 
-.imagegrid img{width: 100%;height: 150%;padding: 0;margin:0}
+.imagegrid{display: flex;flex:10;flex-direction: column;gap:1rem;width:100%;height:100%;padding: 0;margin: 0;justify-content:center}
+
+.imagegrid img{display:block;width: 97%;height: 100%;min-height:275px;padding: 0;margin:0 auto;justify-content:center; }
+
 
 .previewbutton,.nextbutton{border-radius: 0.25rem; background: linear-gradient(to bottom, #B23AEE, #00BFFF); color:#31FF0D; font-weight: normal;padding:0.25rem 1rem 0.25rem 1rem; text-decoration: none;}
 
-  
-body{background:#31FF0D}
-
-hr{height:15px;background:#31FF0D;width:100%;border:none;}
-
-
-footer{text-align:center; color:#FF8C00;font-weight:bold;}
-
-.contacts{ display:flex;justify-content:center;font-weight:bold;color;#C1C1C1;gap:3 rem;background:#FFD700;}
+.contacts{ display:flex;justify-content:center;font-weight:normal;color;#C1C1C1;gap:3 rem}
 
 a {color:#1874CD ; text-decoration: underline;}
 
-footer{background:linear-gradient(to bottom, #FFD700 90%, #31FF0D);text-shadow: 0px -1px 7px;padding-top:5%}
+footer{background:linear-gradient(to bottom, #FFD700 95%, #31FF0D);text-align:center; color:#FF8C00;}
 
-.endsection p {background: linear-gradient(to bottom, #B23AEE 30%,  #00BFFF);background-clip: text;color: transparent;font-weight:bold}
+.endsection p{background: linear-gradient(to bottom,#CCCCCC 10%, #1874CD);background-clip: text;color: transparent;font-size:small}
 
-@media (max-width: 900px) {.excelprojects{display: flex;flex-direction: column;}}
+@media (max-width: 1000px) {.excelprojects{grid-template-columns: 1fr;}}
 
-@media only screen and (min-width:900px) {body {font-size:1.5rem;}}
+@media only screen and (min-width:1080px) {body {font-size:1.5rem;}}
 
-@media (max-width: 900px) {.contacts {display:flex;flex-direction: column;align-items: center;}
+@media (max-width: 1000px) {.contacts {flex-direction: column;align-items: center;}
 
-@media (max-width: 900px) {.logo {width: 120px;height: auto; }}
-
-.contacts a {width: 100%;text-align: center; }}</style>
+@media (max-width: 1000px) {.logo {width: 100px;height: 100px; }}
+                        
+</style>
 </head>
 
 <div class="excelgrid">
 <body>
 
 <div class="excelcontainer">
+
+<div class="headergap">
+<div class="logocontainer">
 <img src="mfthd.png" class="logo">
+</div>
 <div class="excelheader">
-<h3 class="otherbuttons">
+<h5 class="otherbuttons">
 <a href="https://marlinfintech.github.io">HOMEPAGE</a>
-</h3>
-<h3 class="excelbutton">
+</h5>
+<h5 class="excelbutton">
 <a href="excel.html"> EXCEL</a>
-</h3>
-<h3 class="otherbuttons">
+</h5>
+<h5 class="otherbuttons">
 <a href="#portfolio"> CONTACTS</a>
-</h3>
+</h5>
 </div>
 </div>
-&nbsp
+
+</div>
 
 <div class="excelcontainer">
 <div class="excelprojects">
 <div class="excelcard003">
-<h4>
+<h5>
 MICROSOFT EXCEL 003.
-</h4>
-<h4>
+</h5>
+<h5>
 TOOLS SHOP 1
-</h4>
-<h4>
+</h5>
+<h5>
 SALES
-</h4>
+</h5>
 <p>
 Microsoft Excel Template :
-<ul style="list-style-position:inside;text-align:center;list-style:none ;padding:0">
+<ul>
 <li>&#9745;Pivot & Filter Tables</li>
 <li>&#9745;Select Currency</li>
 <li>&#9745;Blank Fields</li>
@@ -124,31 +132,31 @@ Microsoft Excel Template :
 </div>
 </div>
 </div>
-
 <br>
+
 <div class="excelcontainer">
+
 <div id="portfolio" class="contacts">
 <a href="https://wa.me/+254103855773" target="_blank" rel="noopener noreferrer"><img src="whatsapppurple.png" style="width:50px;height:50px; vertical-align:middle; margin-right:5px;">whatsapp</a>
 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=marlinfintech@gmail.com&su=Subject%20Here&body=Body%20text%20here" target="_blank"><img src="emailpurple.png" style="width:50px; height:50px; vertical-align:middle; margin-right:5px;">marlinfintech@gmail</a>
 </div>
+
 </div>
 <br>
 
 <div class="excelcontainer">
+
 <div class="endsection">
 <footer>
+<br>
 <p>
-MARLIN FINTECH © 2025.
+MARLIN FINTECH ©2025 ❤️
 </p>
-<p>
-Built with ❤️ in Kenya.
-</p>
-<br><br><br>
 </footer>
 </div>
-</div>
+
 </div>
 
-
+</div>
 </body>
 </html>
