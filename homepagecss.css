@@ -34,7 +34,7 @@ footer{background:linear-gradient(to bottom, #FFD700 95%, #31FF0D);text-align:ce
 
 .endsection p{background: linear-gradient(to bottom,#CCCCCC 10%, #1874CD);background-clip: text;color: transparent;font-size:small}
 
-@media (max-width: 900px) {.allprojects{grid-template-columns: 1fr;}}
+@media (max-width: 1000px) {.allprojects{grid-template-columns: 1fr;}}
 
 @media (min-width: 1050px) {.allprojects{grid-template-columns: 2fr;}}
 
@@ -46,5 +46,6 @@ footer{background:linear-gradient(to bottom, #FFD700 95%, #31FF0D);text-align:ce
 @media (max-width: 1000px) {.logo {width: 100px;height: 100px; }}
 
 </style>
+
 
 
