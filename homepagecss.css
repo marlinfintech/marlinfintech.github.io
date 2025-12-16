@@ -26,8 +26,7 @@ a {color:#1874CD ; text-decoration: underline;}
 footer{background:linear-gradient(to bottom, #FFD700 95%, #31FF0D);text-align:center; color:#FF8C00;}
 .endsection p{background: linear-gradient(to bottom,#CCCCCC 10%, #1874CD);background-clip: text;color: transparent;font-size:small}
 
-@media (max-width: 800px) {
-  .allprojects {
+@media (max-width: 900px) {.allprojects {
     display: flex;flex-direction:column }}
 
 
