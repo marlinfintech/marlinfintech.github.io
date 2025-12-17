@@ -18,6 +18,7 @@ border-right: 0.5rem ridge #31FF0D;border-top: 0.5rem inset #31FF0D;border-botto
 .otherbuttons{font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
 border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-top: 0.5rem inset #31FF0D;background: #CCCCCC}
 
+.samecardscontainer{gap: 0.125rem;}
 .networkscard001,.networkscard002,.networkscard003,.networkscard004{background:linear-gradient(to top, #FFD700 85%, #FF8C00);display: flex;flex-direction: column; justify-content: center;text-align: center;}
 .networkscard001 p,.networkscard002 p,.networkscard003 p,.networkscard004 p ,ul{text-align: center; color:#1874CD; font-family:serif;word-spacing:2px; line-height:1.5;font-weight:normal; padding:0 3rem;margin:0.25rem auto}
 .networkscard001 h5,.networkscard002 h5,.networkscard003 h5,.networkscard004 h5{color:#1874CD; font-weight:bold;text-align: center;margin:0.125rem;padding-top:1rem}
@@ -30,6 +31,6 @@ ul{list-style:none ;text-align:center;padding:0;margin-top:0.125rem}
 footer{background:linear-gradient(to bottom, #FFD700 95%, #31FF0D);text-align:center; color:#FF8C00;}
 .endsection p{background: linear-gradient(to bottom,#CCCCCC 10%, #1874CD);background-clip: text;color: transparent;font-size:small}
 
-@media(min-width:700px){.networkspagebuttons{display: flex;} .samecardscontainer{display:grid;grid-template-columns:repeat(2, 1fr);} }
+@media(min-width:1000px){.networkspagebuttons{display: flex;} .samecardscontainer{display:grid;grid-template-columns:repeat(1, 1fr);} }
 
 

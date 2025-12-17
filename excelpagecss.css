@@ -32,7 +32,7 @@ ul{list-style:none ;text-align:center;padding:0;margin-top:0.125rem}
 footer{background:linear-gradient(to bottom, #FFD700 95%, #31FF0D);text-align:center; color:#FF8C00;}
 .endsection p{background: linear-gradient(to bottom,#CCCCCC 10%, #1874CD);background-clip: text;color: transparent;font-size:small}
 
-@media(min-width:700px){.excelpagebuttons{display: flex;} .samecardscontainer{display:grid;grid-template-columns:repeat(2, 1fr);} }
+@media(min-width:1000px){.excelpagebuttons{display: flex;} .samecardscontainer{display:grid;grid-template-columns:repeat(2, 1fr);} }
 
 
 
