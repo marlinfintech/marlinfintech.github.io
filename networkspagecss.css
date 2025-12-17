@@ -3,31 +3,33 @@ body{background:#31FF0D}
 
 .gridcontainer{display:flex;flex-direction:column;word-wrap:break-word;overflow:hidden;gap:0.125rem}
 
-a {text-decoration: underline;}
+a {text-decoration: underline;color:#1874CD;}
 
 
 .header{background:linear-gradient(to top, #FFD700 90%, #31FF0D); text-align:center;}
 .logo {display:flex;justify-content: center; margin: 0 auto; max-width: 100px; max-height: 100px;padding:0}
 
-.networkspagebuttons{margin: 0 auto;display: flex;flex-direction: row;gap:0.125rem;padding: 0}
-.networksbutton{background: #CCCCCC; font-weight:bold; padding-left: 1rem; padding-right: 1rem;border-left: 0.5rem outset #31FF0D;
-border-right: 0.5rem inset #31FF0D;border-top: 0.5rem ridge #31FF0D;border-bottom: 0.5rem inset #31FF0D;}
+.networkspagebuttons{text-align:center;margin: 0 auto; gap:0;padding: 0;display:grid;grid-template-columns:repeat(2, 1fr)}
+.networkspagebuttons h5{margin:0.125rem}
+.networksbutton{background: #CCCCCC; font-weight:bold; padding-left: 1rem; padding-right: 1rem;border-left: 0.5rem groove #31FF0D;
+border-right: 0.5rem ridge #31FF0D;border-top: 0.5rem inset #31FF0D;border-bottom: 0.5rem inset #31FF0D;}
 .networksbutton a{color:#B23AEE}
 .otherbuttons a{color: #1874CD}
-.otherbuttons{font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem outset #31FF0D;
-border-right: 0.5rem inset #31FF0D;border-bottom: 0.5rem ridge #31FF0D;border-top: 0.5rem ridge #31FF0D;background: #CCCCCC}
+.otherbuttons{font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
+border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-top: 0.5rem inset #31FF0D;background: #CCCCCC}
 
 .networkscard001,.networkscard002,.networkscard003,.networkscard004{background:linear-gradient(to top, #FFD700 85%, #FF8C00);display: flex;flex-direction: column; justify-content: center;text-align: center;}
-.networkscard001 p,.networkscard002 p,.networkscard003 p,.networkscard004 p ,ul{text-align: center; color:#1874CD; font-family:serif;word-spacing:2px; line-height:1.5;font-weight:normal; padding:0 3rem}
-.networkscard001 h5,.networkscard002 h5,.networkscard003 h5,.networkscard004 h5{color:#1874CD; font-weight:bold;text-align: center}
-ul{list-style:none ;text-align:center;padding:0}
+.networkscard001 p,.networkscard002 p,.networkscard003 p,.networkscard004 p ,ul{text-align: center; color:#1874CD; font-family:serif;word-spacing:2px; line-height:1.5;font-weight:normal; padding:0 3rem;margin:0.25rem auto}
+.networkscard001 h5,.networkscard002 h5,.networkscard003 h5,.networkscard004 h5{color:#1874CD; font-weight:bold;text-align: center;margin:0.125rem;padding-top:1rem}
+ul{list-style:none ;text-align:center;padding:0;margin-top:0.125rem}
 
-.previewbutton{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #B23AEE, #00BFFF); color:#31FF0D;padding:0.25rem 1rem 0.25rem 1rem; text-decoration: none;margin: 0 auto;}
+.previewbutton{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #B23AEE, #00BFFF); color:#31FF0D;padding:0.25rem 1rem 0.25rem 1rem; text-decoration: none;margin: 1rem auto;}
 
-.contacts{ background: #FFD700; display:flex;justify-content:center;font-weight:normal;color;#C1C1C1;gap:3 rem}
+.contacts{ background: #FFD700; display:flex;justify-content:center;font-weight:normal;color;#1874CD;gap:3 rem}
 
 footer{background:linear-gradient(to bottom, #FFD700 95%, #31FF0D);text-align:center; color:#FF8C00;}
 .endsection p{background: linear-gradient(to bottom,#CCCCCC 10%, #1874CD);background-clip: text;color: transparent;font-size:small}
 
+@media(min-width:700px){.excelpagebuttons{display: flex;} .samecardscontainer{display:grid;grid-template-columns:repeat(2, 1fr);} }
 
 
