@@ -12,7 +12,7 @@ a {text-decoration: underline;color:#1874CD}
 .networkspagebuttons{text-align:center;margin: 0 auto; gap:0;padding: 0;display:grid;grid-template-columns:repeat(2, 1fr)}
 .networkspagebuttons h5{margin:0.125rem}
 
-.networksbutton{background: #CCCCCC; font-weight:bold; padding-left: 1rem; padding-right: 1rem;border-left: 0.5rem groove #31FF0D;
+.networksbutton{background: #CCCCCC; font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
 border-right: 0.5rem ridge #31FF0D;border-top: 0.5rem inset #31FF0D;border-bottom: 0.5rem inset #31FF0D;}
 .networksbutton a{color:#B23AEE}
 .otherbuttons a{color: #1874CD}

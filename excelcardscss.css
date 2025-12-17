@@ -12,7 +12,7 @@ a {text-decoration: underline;color:#1874CD}
 .excelpagebuttons{text-align:center;margin: 0 auto; gap:0;padding: 0;display:grid;grid-template-columns:repeat(2, 1fr)}
 .excelpagebuttons h5{margin:0.125rem}
 
-.excelbutton{background: #CCCCCC; font-weight:bold; padding-left: 1rem; padding-right: 1rem;border-left: 0.5rem groove #31FF0D;
+.excelbutton{background: #CCCCCC; font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
 border-right: 0.5rem ridge #31FF0D;border-top: 0.5rem inset #31FF0D;border-bottom: 0.5rem inset #31FF0D;}
 .excelbutton a{color:#B23AEE}
 .otherbuttons a{color: #1874CD}
