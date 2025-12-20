@@ -25,7 +25,7 @@ border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-t
 @keyframes blink {50% { border-color: transparent; }} 
 
 label{color:#1874CD; font-family:serif;word-spacing:2px; line-height:1.5;font-weight:bold; margin:0.25rem auto}
-.formtitle h5{color:#1874CD; font-weight:bold;text-align: center}
+.formtitle h5{color:#1874CD; font-weight:bold;text-align: center;margin-bottom:0}
 
 .formrow {display: flex;flex-direction: column;margin: 0.5rem auto;}
 .options{display: grid;grid-template-columns: repeat(2, 1fr); gap:0.125rem;margin: 0 auto;place-items: center}
