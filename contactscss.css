@@ -1,0 +1,51 @@
+html,body{height:100%;width:100%;margin:0;font-size:1.2rem;font-family:serif;word-spacing:0.3rem; line-height:1.5;scroll-behavior: smooth}
+body{background:#31FF0D}
+
+.gridcontainer{display:flex;flex-direction:column;word-wrap:break-word;overflow:hidden;gap:0.125rem}
+
+a {text-decoration: underline;color:#1874CD}
+
+
+.header{background:linear-gradient(to top, #FFD700 90%, #31FF0D); text-align:center;}
+.logo {display:flex;justify-content: center; margin: 0 auto; max-width: 100px; max-height: 100px;padding:0}
+
+.contactspagebuttons{text-align:center;margin: 0 auto; gap:0;padding: 0;display:grid;grid-template-columns:repeat(2, 1fr)}
+.contactspagebuttons h5{margin:0.125rem}
+
+.contactsbutton{background: #CCCCCC; font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
+border-right: 0.5rem ridge #31FF0D;border-top: 0.5rem inset #31FF0D;border-bottom: 0.5rem inset #31FF0D;}
+.contactsbutton a{color:#B23AEE}
+.otherbuttons a{color: #1874CD}
+.otherbuttons{font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
+border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-top: 0.5rem inset #31FF0D;background: #CCCCCC}
+
+.userform{background:linear-gradient(to top, #FFD700 85%, #FF8C00);display: flex;flex-direction: column; justify-content: center;text-align: center;}
+.blinkingrequest{display: inline-block;white-space: nowrap;overflow: hidden;color: #1874CD;border-right: 5px solid #1874CD;width: 0;animation:typeCycle 15s 5s steps(18, end) infinite,blink 1s step-end infinite;}
+@keyframes typeCycle {0%   { width: 0; } 30%  { width: 18ch; } 90%  { width: 18ch; }100% { width: 0; }}
+@keyframes blink {50% { border-color: transparent; }} 
+
+label{color:#1874CD; font-family:serif;word-spacing:2px; line-height:1.5;font-weight:bold; margin:0.25rem auto}
+.formtitle h5{color:#1874CD; font-weight:bold;text-align: center}
+
+.formrow {display: flex;flex-direction: column;margin: 0.5rem auto;}
+.options{display: grid;grid-template-columns: repeat(2, 1fr); gap:0.125rem;margin: 0 auto;place-items: center}
+textarea,.emailrow input,.telephonerow input{width:70%;font-size: 1.2rem;margin:0 auto;display: flex;flex-direction: column;}
+textarea,input{background: #CCCCCC;color: #1874CD}
+
+.actionbuttons{display:flex;flex-direction: row; margin: 0 auto;gap:2rem;justify-content: center;flex: 1}
+.resetbutton,.submitbutton{border:none;text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #B23AEE, #00BFFF); color:#31FF0D;padding:0.25rem 1rem 0.25rem 1rem; text-decoration: none;margin: 2rem auto;font-size: 1rem}
+
+.previewbutton{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #B23AEE, #00BFFF); color:#31FF0D;padding:0.25rem 1rem 0.25rem 1rem; text-decoration: none;margin: 1rem auto;}
+
+.imagegrid img{width: 97%}
+
+.lowernavbuttons{display:flex;flex-direction: row; margin: 0 auto;gap:2rem}
+.previewbutton{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #B23AEE, #00BFFF); color:#31FF0D;padding:0.25rem 1rem 0.25rem 1rem; text-decoration: none;margin: 1rem auto;}
+
+
+.contacts{ background: #FFD700; display:flex;justify-content:center;font-weight:normal;color;#C1C1C1;gap:3 rem}
+
+footer{background:linear-gradient(to bottom, #FFD700 95%, #31FF0D);text-align:center; color:#FF8C00;}
+.endsection p{background: linear-gradient(to bottom,#CCCCCC 10%, #1874CD);background-clip: text;color: transparent;font-size:small}
+
+@media(min-width:1000px){.contactspagebuttons{display: flex;} .emailrow input,.telephonerow input{width:20%;} }}
