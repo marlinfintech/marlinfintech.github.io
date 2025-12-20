@@ -30,7 +30,7 @@ label{color:#1874CD; font-family:serif;word-spacing:2px; line-height:1.5;font-we
 .formrow {display: flex;flex-direction: column;margin: 0.5rem auto;}
 .options{display: grid;grid-template-columns: repeat(2, 1fr); gap:0.125rem;margin: 0 auto;place-items: center}
 textarea,.emailrow input,.telephonerow input{width:70%;font-size: 1.2rem;margin:0 auto;display: flex;flex-direction: column;}
-textarea,input{background: #CCCCCC;color: #1874CD}
+textarea,input{background: #CCCCCC;color: #1874CD;border:none}
 
 .actionbuttons{display:flex;flex-direction: row; margin: 0 auto;gap:2rem;justify-content: center;flex: 1}
 .resetbutton,.submitbutton{border:none;text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #B23AEE, #00BFFF); color:#31FF0D;padding:0.25rem 1rem 0.25rem 1rem; text-decoration: none;margin: 2rem auto;font-size: 1rem}
