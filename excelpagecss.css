@@ -20,9 +20,9 @@ border-right: 0.5rem ridge #31FF0D;border-top: 0.5rem inset #31FF0D;border-botto
 border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-top: 0.5rem inset #31FF0D;background: #CCCCCC}
 
 .samecardscontainer{gap: 0.125rem;}
-.excelcard001,.excelcard002,.excelcard003,.excelcard004{background:linear-gradient(to top, #FFD700 85%, #FF8C00);display: flex;flex-direction: column; justify-content: center;text-align: center;}
-.excelcard001 p,.excelcard002 p,.excelcard003 p,.excelcard004 p ,ul{text-align: center; color:#1874CD; font-family:serif;word-spacing:2px; line-height:1.5;font-weight:normal; padding:0 3rem;margin:0.25rem auto}
-.excelcard001 h5,.excelcard002 h5,.excelcard003 h5,.excelcard004 h5{color:#1874CD; font-weight:bold;text-align: center;margin:0.125rem;padding-top:1rem}
+.excelcard001,.excelcard002,.excelcard003,.excelcard004,.excelcard005{background:linear-gradient(to top, #FFD700 85%, #FF8C00);display: flex;flex-direction: column; justify-content: center;text-align: center;}
+.excelcard001 p,.excelcard002 p,.excelcard003 p,.excelcard004 p,.excelcard004 p,ul{text-align: center; color:#1874CD; font-family:serif;word-spacing:2px; line-height:1.5;font-weight:normal; padding:0 3rem;margin:0.25rem auto}
+.excelcard001 h5,.excelcard002 h5,.excelcard003 h5,.excelcard004 h5,.excelcard004 h5{color:#1874CD; font-weight:bold;text-align: center;margin:0.125rem;padding-top:1rem}
 ul{list-style:none ;text-align:center;padding:0 3rem;margin-top:0.125rem}
 
 .previewbutton{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #B23AEE, #00BFFF); color:#31FF0D;padding:0.25rem 1rem 0.25rem 1rem; text-decoration: none;margin: 1rem auto;}
