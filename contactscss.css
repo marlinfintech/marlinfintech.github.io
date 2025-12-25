@@ -48,4 +48,7 @@ textarea,input{background: #CCCCCC;color: #1874CD;}
 footer{background:linear-gradient(to bottom, #FFD700 95%, #31FF0D);text-align:center; color:#FF8C00;}
 .endsection p{background: linear-gradient(to bottom,#CCCCCC 10%, #1874CD);background-clip: text;color: transparent;font-size:small}
 
-@media(min-width:1000px){.contactspagebuttons{display: flex;} .emailrow input,.telephonerow input{width:20%;} }}
+@media(min-width:1000px){.contactspagebuttons{display: flex;} .emailrow input,.telephonerow input{width:30%;} textarea{width:50%}}
+@media(min-width:1000px).blinkingrequest{display: inline-block;white-space: nowrap;overflow: hidden;color: #1874CD;border-right: 5px solid #1874CD;width: 0;animation:typeCycle 15s 5s steps(20, end) infinite,blink 1s step-end infinite;}
+@keyframes typeCycle {0%   { width: 0; } 30%  { width: 20ch; } 90%  { width: 20ch; }100% { width: 0; }}
+@keyframes blink {50% { border-color: transparent; }} 
