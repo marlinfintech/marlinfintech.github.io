@@ -1,12 +1,80 @@
 html,body{height:100%;width:100%;margin:0;font-size:1.2rem;font-family:serif;word-spacing:0.3rem; line-height:1.5;scroll-behavior: smooth}
 body{background:#31FF0D}
 
-.gridcontainer{display:flex;flex-direction:column;word-wrap:break-word;overflow:hidden;gap:0.125rem}
+.gridcontainer{display:flex;flex-direction:column;word-wrap:break-word;overflow:visible;gap:0.125rem}
 
 .header{background:linear-gradient(to top, #FFD700 90%, #31FF0D); color:#FF8C00;text-align:center;}
 .header h4{margin:0 auto;padding: 0 auto;margin: auto 0}
 .header p, .header h4{background: linear-gradient(to bottom, #B23AEE 30%,  #00BFFF);background-clip: text;color: transparent;font-weight:bold}
 .logo {display:flex;justify-content: center; margin: 0 auto; max-width: 100px; max-height: 120px;padding:0}
+/* ===== HAMBURGER MENU (THEME COLORS ONLY) ===== */
+
+.menu-container {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+/* 5-bar icon */
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  width: 40px;
+  height: 5px;
+background:#FF8C00;
+  border-radius: 0;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 1rem;
+  background: #FFD700;
+  border-radius: 0;
+  display: none;
+  width: max-content;
+  min-width: 170px;
+  overflow: visible;
+  box-shadow: -5px 0px 15px #CCCCCC;
+}
+
+/* Menu links */
+.dropdown-menu a {
+  display: block;
+  padding: 0.7rem 1rem;
+  text-decoration: underline;
+  white-space: nowrap;
+  color:#FF8C00;
+  font-weight: bold;font-size:1rem;
+}
+
+/* Hover effect */
+.dropdown-menu a:hover {
+  background: #CCCCCC;
+  color: #B23AEE;
+}
+
+/* Toggle visibility */
+#menu-toggle:checked + .menu-icon + .dropdown-menu {
+  display: block;
+}
+
+/* Header positioning fix */
+.header {
+  position: relative;overflow:visible;
+}
+
 
 .intro{background:linear-gradient(to top, #FFD700 85%, #31FF0D)}
 .intro{text-align: center; color:#1874CD; font-family:serif;word-spacing:2px; line-height:1.5;font-weight:normal; padding-left: 3rem;padding-right: 3rem}
@@ -25,7 +93,7 @@ a {color:#1874CD ; text-decoration: underline;}
 
 .projects h4{text-align:center; background: linear-gradient(to bottom, #B23AEE 30%,  #00BFFF);background-clip: text;color: transparent;padding-bottom:0;margin:0 auto;}
 
-.allprojects{gap: 0.125rem;}
+.allprojects{gap: 0.125rem;overflow:hidden}
 .excelcard, .powerbicard, .tableaucard, .accesscard,.networkscard,.powerpointcard{background:linear-gradient(to top, #FFD700 85%, #FF8C00);display: flex;flex-direction: column; justify-content: center;text-align: center;flex:1}
 .excelcard p, .powerbicard p, .tableaucard p, .accesscard p,.networkscard p,.powerpointcard p{text-align: center; color:#1874CD; font-family:serif;word-spacing:2px; line-height:1.5;font-weight:normal; padding:0 3rem;margin:0.25rem auto}
 .excelcard h4, .powerbicard h4, .tableaucard h4, .accesscard h4,.networkscard h4,.powerpointcard h4{color:#FF8C00; font-weight:bold;text-align: center;margin:0.125rem}
