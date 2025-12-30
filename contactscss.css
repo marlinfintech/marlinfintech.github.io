@@ -28,7 +28,7 @@ label{color:#1874CD; font-family:serif;word-spacing:2px; line-height:1.5;font-we
 .formtitle h5{color:#1874CD; font-weight:bold;text-align: center;margin-bottom:0}
 
 .formrow {display: flex;flex-direction: column;margin: 0.5rem auto;}
-.options{display: grid;grid-template-columns: repeat(2, 1fr); gap:0.125rem;margin: 0 auto;place-items: center}
+.options{display: grid;grid-template-columns: repeat(1, 1fr); gap:0.125rem;margin: 0 auto;place-items: center}
 textarea,.emailrow input,.telephonerow input{width:70%;font-size: 1.2rem;margin:0 auto;display: flex;flex-direction: column;border:none}
 textarea,input{background: #CCCCCC;color: #1874CD;}
 
@@ -53,3 +53,4 @@ footer{background:linear-gradient(to bottom, #FFD700 95%, #31FF0D);text-align:ce
 @media(min-width:1000px).blinkingrequest{display: inline-block;white-space: nowrap;overflow: hidden;color: #1874CD;border-right: 5px solid #1874CD;width: 0;animation:typeCycle 15s 5s steps(20, end) infinite,blink 1s step-end infinite;}
 @keyframes typeCycle {0%   { width: 0; } 30%  { width: 20ch; } 90%  { width: 20ch; }100% { width: 0; }}
 @keyframes blink {50% { border-color: transparent; }} 
+@media(min-width:1000px){.options{display: grid;grid-template-columns: repeat(3, 1fr); gap:0.125rem;margin: 0 auto;place-items: center}}
