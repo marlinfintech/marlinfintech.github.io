@@ -26,6 +26,7 @@ border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-t
 .samecardscontainer h5{color:#1874CD; font-weight:bold;text-align: center;margin:0.125rem;padding-top:1rem}
 ul{list-style:none ;text-align:center;padding:0 3rem;margin-top:0.125rem}
 .imagegrid img{width: 97%}
+.videogrid video{display:flex;justify-content:center;align-items:center;width: 97%;margin: 1rem auto}
 .previewbutton{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #B23AEE, #00BFFF); color:#31FF0D;padding:0.25rem 1rem 0.25rem 1rem; text-decoration: none;margin: 1rem auto;}
 
 .contacts{ background: #FFD700; display:flex;justify-content:center;font-weight:normal;color;#1874CD;gap:3 rem}
