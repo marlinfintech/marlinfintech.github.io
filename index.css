@@ -1,0 +1,65 @@
+html,body{height:100%;width:100%;margin:0;font-size:1rem;font-family:serif;word-spacing:0.3rem; line-height:1.5;scroll-behavior: smooth}
+body{background:#FFFFFF}
+
+.gridcontainer{display:flex;flex-direction:column;word-wrap:break-word;overflow:visible;gap:0.125rem}
+
+.header{display:flex;flex-direction:column; background:linear-gradient(to top, #FFFFFF 90%, #FFFFFF);position:relative;overflow:visible;}
+.header h4{background: linear-gradient(to bottom, #B23AEE 30%,  #00BFFF);background-clip: text;color: transparent;
+  padding: 0;margin: 0 auto;font-weight:bold;text-align:center;}
+.logo {max-width: 75px; max-height: 75px;margin:0 auto}
+
+.homepagebuttons{background:#31FF0D;text-align:center;margin: 0 auto; gap:0;padding: 0;display:grid;grid-template-columns:repeat(2, 1fr)}
+.homepagebuttons h5{margin:0.125rem}
+
+.homepagebutton{background: #FF8C00; font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
+border-right: 0.5rem ridge #31FF0D;border-top: 0.5rem inset #31FF0D;border-bottom: 0.5rem outset #31FF0D;}
+.homepagebutton:hover,.otherbuttons:hover{background: #FFD700}
+.homepagebutton a{color:#FFFFFF}
+.otherbuttons a{color: #1874CD}
+.otherbuttons{font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
+border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-top: 0.5rem inset #31FF0D;background: #FF8C00}
+.button4,.button6{grid-column: span 2}
+
+.intro{background:linear-gradient(to top, #FFD700 93%, #FFD700)}
+.intro{text-align: center; color:#000000; font-family:serif;word-spacing:2px; line-height:1.5;font-weight:normal; padding-left: 3rem;padding-right: 3rem}
+
+.intro-sentence p{margin:0rem;color: #000000;padding: 0}
+.intro-list ul{list-style:none ;padding:0;color: #000000;display: grid;justify-content: center;margin: 0 auto}
+.intro-list li{text-align: center}
+
+ .blinkingrequest{display: inline-block;white-space: nowrap;overflow: hidden;color: #000000;border-right: 5px solid #000000;width: 0;animation:typeCycle 15s 5s steps(15, end) infinite,blink 1s step-end infinite;}
+
+@keyframes typeCycle {0%   { width: 0; } 30%  { width: 17ch; } 90%  { width: 17ch; }100% { width: 0; }}
+
+ @keyframes blink {50% { border-color: transparent; }} 
+
+a {color:#000000 ; text-decoration: underline;}
+
+.projects h4{text-align:center; background: linear-gradient(to bottom, #B23AEE 30%,  #00BFFF);background-clip: text;color: transparent;padding-bottom:0;margin:0 auto;}
+.projectsicon{height:3rem;width:3rem;margin:0 auto}
+
+.allprojects{display:flex;flex-direction:column;word-wrap:break-word;gap: 0.125rem;overflow:hidden}
+.dataanalyticscard,.networkscard,.graphicdesigncard,.webdesigncard{background:linear-gradient(to top, #FFD700 85%, #FF8C00);display: flex;flex-direction: column; justify-content: center;text-align: center;flex:1}
+.dataanalyticscard p,.networkscard p,.graphicdesigncard p,.webdesigncard p{text-align: center; color:#1874CD; 
+  font-family:serif;word-spacing:2px; line-height:1.5;font-weight:normal; padding:0 1rem;margin:0.25rem auto}
+.dataanalyticscard h7,.networkscard h7,.graphicdesigncard h7,.webdesigncard h7{color:#000000; font-weight:bold;text-align: center;margin:0.125rem;padding: 0}
+.viewbutton{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #00BFFF, #B23AEE); color:#FFFFFF;
+  padding:0.25rem 1rem 0.25rem 1rem; text-decoration: none;margin:1rem auto;}
+  .viewbutton:hover{background: #00BFFF}
+
+.contacts{ background: #FFFFFF; display:flex;justify-content:center;font-weight:normal;color:#1874CD;gap:5rem}
+
+footer{background:linear-gradient(to bottom, #FFFFFF 95%, #FFFFFF);text-align:center; color:#FF8C00;}
+.endsection p{background: linear-gradient(to bottom,#CCCCCC 10%, #1874CD);background-clip: text;color: transparent;
+  font-size:small;margin-bottom:0;padding-bottom:0}
+
+@media(min-width:1000px){.allprojects{display:grid;grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(1,1fr);gap:0.125rem}}
+@media(min-width:1000px){.webdesigncard{grid-column: span 2}}
+/*@media(min-width:1000px){.intro{grid-row: span 1} .networkscard,.webdesigncard{grid-column:span 1}} */
+
+@media(min-width:1000px){.homepagebuttons{display: flex;}}
+
+/*.networkscard{grid-column:span 2}}*/
+
+
+

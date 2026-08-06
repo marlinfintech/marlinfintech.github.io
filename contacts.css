@@ -1,0 +1,74 @@
+html,body{height:100%;width:100%;margin:0;font-size:1rem;font-family:serif;word-spacing:0.3rem; line-height:1.5;scroll-behavior: smooth}
+body{background:#FFFFFF}
+
+.gridcontainer{display:flex;flex-direction:column;word-wrap:break-word;overflow:hidden;gap:0.125rem}
+
+a {text-decoration: underline;color:#1874CD}
+
+.header{display:flex;flex-direction:column; background:linear-gradient(to top, #FFFFFF 90%, #FFFFFF);position:relative;overflow:visible;}
+.header h4{background: linear-gradient(to bottom, #B23AEE 30%,  #00BFFF);background-clip: text;color: transparent;
+  padding: 0;margin: 0 auto;font-weight:bold;text-align:center;}
+.logo {max-width: 75px; max-height: 75px;margin:0 auto}
+
+.contactsbuttons{background:#31FF0D;text-align:center;margin: 0 auto; gap:0;padding: 0;display:grid;grid-template-columns:repeat(2, 1fr)}
+.contactsbuttons h5{margin:0.125rem}
+
+.contactsbutton{background: #FF8C00; font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
+border-right: 0.5rem ridge #31FF0D;border-top: 0.5rem inset #31FF0D;border-bottom: 0.5rem outset #31FF0D;}
+.contactsbutton a{color:#FFFFFF}
+.contactsbutton:hover,.otherbuttons:hover{background: #FFD700}
+.otherbuttons a{color: #1874CD}
+.otherbuttons{font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
+border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-top: 0.5rem inset #31FF0D;background: #FF8C00}
+.button4,.button6{grid-column: span 2}
+
+.userform{background:linear-gradient(to top, #FFD700 85%, #FF8C00);display: flex;flex-direction: column; justify-content: center;text-align: center;}
+.blinkingrequest{display: inline-block;white-space: nowrap;overflow: hidden;color: #1874CD;border-right: 5px solid #1874CD;width: 0;animation:typeCycle 15s 5s steps(18, end) infinite,blink 1s step-end infinite;}
+@keyframes typeCycle {0%   { width: 0; } 30%  { width: 18ch; } 90%  { width: 18ch; }100% { width: 0; }}
+@keyframes blink {50% { border-color: transparent; }} 
+
+label{color:#1874CD; font-family:serif;word-spacing:2px; line-height:1.5;font-weight:normal; margin:0.25rem auto}
+.formtitle h5, .formrow h5,.contacts h5{color:#000000; font-weight:bold;text-align: center;}
+.formrow h5{margin-top:0.5rem}
+.contacts h5{color:#000000;margin:1rem auto}
+
+.formrow {display: flex;flex-direction: column;margin: 0.5rem auto;}
+.options{display: grid;grid-template-columns: repeat(1, 1fr); gap:0.125rem;margin: 0 auto;place-items: center}
+textarea,.emailrow input,.telephonerow input{width:70%;font-size: 1.2rem;margin:0 auto;display: flex;flex-direction: column;border:none}
+textarea,input{background: #FFFFFF;color: #1874CD;}
+input::placeholder,textarea::placeholder {font-size: 1rem;font-style:italic;}
+
+.actionbuttons{display:flex;flex-direction: row; margin: 0 auto;gap:2rem;justify-content: center;flex: 1}
+.resetbutton,.submitbutton{border:none;text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #00BFFF, #B23AEE); 
+color:#FFFFFF;padding:0.25rem 1rem 0.25rem 1rem; text-decoration: none;margin: 1rem auto;font-size: 1rem;font-weight:normal}
+.resetbutton:hover{background: #00BFFF}
+.submitbutton:hover{background: #00BFFF}
+
+.previewbutton{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #00BFFF, #B23AEE); 
+	color:#FFFFFF;padding:0.25rem 1rem 0.25rem 1rem; text-decoration: none;margin: 1rem auto;}
+
+.imagegrid img{width: 97%}
+
+.lowernavbuttons{display:flex;flex-direction: row; margin: 0 auto;gap:2rem}
+.previewbutton{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #00BFFF, #B23AEE); 
+	color:#FFFFFF;padding:0.25rem 1rem 0.25rem 1rem; text-decoration: none;margin: 1rem auto;}
+	.previewbutton:hover{background: #00BFFF}
+
+hr{width:100%;height:0.5rem;background-color:#FF8C00;border:none}
+
+
+.contacts{ background: #FFD700; display:flex;flex-direction:column;justify-content:center;font-weight:normal;color;#C1C1C1;gap:3 rem;margin: 0 auto}
+.emaillink{text-decoration:none;color: #000000}
+.whatsapplink,.tellink{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #00BFFF, #B23AEE); 
+	color:#000000;padding:0.25rem 1rem 0.25rem 1rem;margin: 1rem auto;}
+	.whatsapplink:hover{background: #00BFFF}
+	.tellink:hover{background: #00BFFF}
+
+footer{background:linear-gradient(to bottom, #FFFFFF 95%, #FFFFFF);text-align:center; color:#FF8C00;}
+.endsection p{background: linear-gradient(to bottom,#CCCCCC 10%, #1874CD);background-clip: text;color: transparent;font-size:small;margin-bottom:0;padding-bottom:0}
+
+@media(min-width:1000px){.contactsbuttons{display: flex;} .emailrow input,.telephonerow input{width:30%;} textarea{width:40%}}
+@media(min-width:1000px).blinkingrequest{display: inline-block;white-space: nowrap;overflow: hidden;color: #1874CD;border-right: 5px solid #1874CD;width: 0;animation:typeCycle 15s 5s steps(20, end) infinite,blink 1s step-end infinite;}
+@keyframes typeCycle {0%   { width: 0; } 30%  { width: 20ch; } 90%  { width: 20ch; }100% { width: 0; }}
+@keyframes blink {50% { border-color: transparent; }} 
+#@media(min-width:1000px){.options{display: grid;grid-template-columns: repeat(3, 1fr); gap:0.125rem;margin: 0 auto;place-items: center}}#
