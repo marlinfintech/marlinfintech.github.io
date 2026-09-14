@@ -20,7 +20,7 @@ border-right: 0.5rem ridge #31FF0D;border-top: 0.5rem inset #31FF0D;border-botto
 .otherbuttons a{color: #1874CD}
 .otherbuttons{font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
 border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-top: 0.5rem inset #31FF0D;background: #FF8C00}
-.button4,.button6{grid-column: span 2}
+/*.button4,.button6{grid-column: span 2}*/
 
 .userform{background:linear-gradient(to top, #FFD700 85%, #FF8C00);display: flex;flex-direction: column; justify-content: center;text-align: center;}
 .blinkingrequest{display: inline-block;white-space: nowrap;overflow: hidden;color: #1874CD;border-right: 5px solid #1874CD;width: 0;animation:typeCycle 15s 5s steps(18, end) infinite,blink 1s step-end infinite;}
