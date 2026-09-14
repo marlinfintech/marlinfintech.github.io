@@ -18,7 +18,7 @@ border-right: 0.5rem ridge #31FF0D;border-top: 0.5rem inset #31FF0D;border-botto
 .otherbuttons a{color: #1874CD}
 .otherbuttons{font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
 border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-top: 0.5rem inset #31FF0D;background: #FF8C00}
-.button4,.button6{grid-column: span 2}
+/*.button4,.button6{grid-column: span 2}*/
 
 .intro{background:linear-gradient(to top, #FFD700 93%, #FFD700)}
 .intro{text-align: center; color:#000000; font-family:serif;word-spacing:2px; line-height:1.5;font-weight:normal; padding-left: 3rem;padding-right: 3rem}
