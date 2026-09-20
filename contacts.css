@@ -65,7 +65,7 @@ hr{width:100%;height:0.5rem;background-color:#FF8C00;border:none}
 	.tellink:hover{background: #00BFFF}
 .mftppt{margin:0 auto}
 
-footer{background:linear-gradient(to bottom, #FFFFFF 95%, #FFFFFF);text-align:center; color:#FF8C00;}
+footer{background:linear-gradient(to bottom, #FFFFFF 95%, #FFFFFF);text-align:center; color:#FF8C00;margin-bottom:0;padding-bottom:0 }
 .endsection p{background: linear-gradient(to bottom,#CCCCCC 10%, #1874CD);background-clip: text;color: transparent;font-size:small;margin-bottom:0;padding-bottom:0}
 
 @media(min-width:1000px){.contactsbuttons{display: flex;} .emailrow input,.telephonerow input{width:30%;} textarea{width:40%}}
