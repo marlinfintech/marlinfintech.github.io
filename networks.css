@@ -32,7 +32,7 @@ ul{list-style:none ;text-align:center;padding:0 3rem;margin-top:0.125rem}
 
 .contacts{ background: #FFD700; display:flex;justify-content:center;font-weight:normal;color;#1874CD;gap:3 rem}
 
-footer{background:linear-gradient(to bottom, #FFFFFF 95%, #FFFFFF);text-align:center; color:#FF8C00;}
+footer{background:linear-gradient(to bottom, #FFFFFF 95%, #FFFFFF);text-align:center; color:#FF8C00;margin-bottom:0;padding-bottom:0 }
 .endsection p{background: linear-gradient(to bottom,#CCCCCC 10%, #1874CD);background-clip: text;color: transparent;font-size:small;margin-bottom:0;padding-bottom:0}
 
 @media(min-width:1000px){.networksbuttons{display: flex;}.imagegrid img,.videogrid video{width:70%}}
