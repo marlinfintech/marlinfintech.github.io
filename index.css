@@ -43,7 +43,7 @@ a {color:#000000 ; text-decoration: underline;}
 .dataanalyticscard p,.networkscard p,.graphicdesigncard p,.webdesigncard p{text-align: center; color:#1874CD; 
   font-family:serif;word-spacing:2px; line-height:1.5;font-weight:normal; padding:0 1rem;margin:0.25rem auto}
 .dataanalyticscard h7,.networkscard h7,.graphicdesigncard h7,.webdesigncard h7{color:#000000; font-weight:bold;text-align: center;margin:0.125rem;padding: 0}
-.viewbutton{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #00BFFF, #B23AEE); color:#FFFFFF;
+.viewbutton{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #00BFFF, #0078A2); color:#FFFFFF;
   padding:0.25rem 1rem 0.25rem 1rem; text-decoration: none;margin:1rem auto;}
   .viewbutton:hover{background: #00BFFF}
 
