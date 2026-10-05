@@ -12,19 +12,20 @@ a {text-decoration: underline;color:#1874CD;}
 
 .webdesignbuttons{background:#31FF0D;text-align:center;margin: 0 auto; gap:0;padding: 0;display:grid;grid-template-columns:repeat(2, 1fr)}
 .webdesignbuttons h5{margin:0.125rem}
-.webdesignbutton{background: #FF8C00; font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
+.webdesignbutton{background: #F4F4F4; font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
 border-right: 0.5rem ridge #31FF0D;border-top: 0.5rem inset #31FF0D;border-bottom: 0.5rem outset #31FF0D;}
-.webdesignbutton a{color:#FFFFFF}
+.webdesignbutton a{color:#000000}
 .webdesignbutton:hover,.otherbuttons:hover{background: #FFD700}
 .otherbuttons a{color: #1874CD}
 .otherbuttons{font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
-border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-top: 0.5rem inset #31FF0D;background: #FF8C00}
+border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-top: 0.5rem inset #31FF0D;background: #F4F4F4}
 /*.button4,.button6{grid-column: span 2}*/
 
-.samecardscontainer{gap: 0.125rem;}
-.webdesigncard{background:linear-gradient(to top, #FFD700 85%, #FF8C00);display: flex;flex-direction: column; justify-content: center;text-align: center;}
-.samecardscontainer p,ul{text-align: center; color:#1874CD; font-family:serif;word-spacing:2px; line-height:1.5;font-weight:normal; padding:0 3rem;margin:0.25rem auto}
-.samecardscontainer h5{color:#1874CD; font-weight:bold;text-align: center;margin:0.125rem;padding-top:1rem}
+.samecardscontainer{gap: 0.125rem;background:#B1C5D9}
+.webdesigncard{background:linear-gradient(to top, #B1C5D9 100%, #FF8C00);display: flex;flex-direction: column; justify-content: center;
+  text-align: center;margin-bottom:2.5rem}
+.samecardscontainer p,ul{text-align: center; color:#000000; font-family:serif;word-spacing:2px; line-height:1.5;font-weight:normal; padding:0 3rem;margin:0.25rem auto}
+.samecardscontainer h5{color:#000000; font-weight:bold;text-align: center;margin:0.125rem;padding-top:0.5rem}
 ul{list-style:none ;text-align:center;padding:0 3rem;margin-top:0.125rem}
 .designernote, .designernote p, .designernote h7{background:linear-gradient(to top, #FFD700 85%, #FFD700);color: #000000;font-size:1rem;font-style:italic}
 .designernote h7{font-style:normal;font-weight:bold;text-decoration:underline;font-size:medium}
@@ -36,7 +37,7 @@ ul{list-style:none ;text-align:center;padding:0 3rem;margin-top:0.125rem}
 .contacts{ background: #FFD700; display:flex;justify-content:center;font-weight:normal;color;#1874CD;gap:3 rem}
 
 footer{background:linear-gradient(to bottom, #FFFFFF 95%, #FFFFFF);text-align:center; color:#FF8C00;margin-bottom:0;padding-bottom:0 }
-.endsection p{background: linear-gradient(to bottom,#CCCCCC 10%, #1874CD);background-clip: text;color: transparent;font-size:small;margin-bottom:0;padding-bottom:0}
+.endsection p{background: linear-gradient(to bottom,#F4F4F4 10%, #0078A2);background-clip: text;color: transparent;font-size:small;margin-bottom:0;padding-bottom:0}
 
 @media(min-width:1000px){.webdesignbuttons{display: flex;}.imagegrid img,.videogrid video{width:70%}}
 

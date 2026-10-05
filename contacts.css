@@ -13,16 +13,16 @@ a {text-decoration: underline;color:#1874CD}
 .contactsbuttons{background:#31FF0D;text-align:center;margin: 0 auto; gap:0;padding: 0;display:grid;grid-template-columns:repeat(2, 1fr)}
 .contactsbuttons h5{margin:0.125rem}
 
-.contactsbutton{background: #FF8C00; font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
+.contactsbutton{background: #F4F4F4; font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
 border-right: 0.5rem ridge #31FF0D;border-top: 0.5rem inset #31FF0D;border-bottom: 0.5rem outset #31FF0D;}
-.contactsbutton a{color:#FFFFFF}
+.contactsbutton a{color:#000000}
 .contactsbutton:hover,.otherbuttons:hover{background: #FFD700}
 .otherbuttons a{color: #1874CD}
 .otherbuttons{font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
-border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-top: 0.5rem inset #31FF0D;background: #FF8C00}
+border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-top: 0.5rem inset #31FF0D;background: #F4F4F4}
 /*.button4,.button6{grid-column: span 2}*/
 
-.userform{background:linear-gradient(to top, #FFD700 85%, #FF8C00);display: flex;flex-direction: column; justify-content: center;text-align: center;}
+.userform{background:linear-gradient(to top, #B1C5D9 100%, #FF8C00);display: flex;flex-direction: column; justify-content: center;text-align: center;}
 .blinkingrequest{display: inline-block;white-space: nowrap;overflow: hidden;color: #1874CD;border-right: 5px solid #1874CD;width: 0;animation:typeCycle 15s 5s steps(18, end) infinite,blink 1s step-end infinite;}
 @keyframes typeCycle {0%   { width: 0; } 30%  { width: 18ch; } 90%  { width: 18ch; }100% { width: 0; }}
 @keyframes blink {50% { border-color: transparent; }} 
@@ -50,14 +50,15 @@ color:#FFFFFF;padding:0.25rem 1rem 0.25rem 1rem; text-decoration: none;margin: 1
 .imagegrid img{width: 97%}
 
 .lowernavbuttons{display:flex;flex-direction: row; margin: 0 auto;gap:2rem}
-.previewbutton{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #00BFFF, #B23AEE); 
-	color:#FFFFFF;padding:0.25rem 1rem 0.25rem 1rem; text-decoration: none;margin: 1rem auto;}
+.previewbutton{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #00BFFF, #0078A2); 
+	color:#000000;padding:0.25rem 1rem 0.25rem 1rem; text-decoration: none;margin: 1rem auto;}
 	.previewbutton:hover{background: #00BFFF}
+	.resetbutton,.submitbutton{color: #000000;font-size: 0.8}
 
-hr{width:100%;height:0.5rem;background-color:#FFD700;border:none}
+hr{width:100%;height:0.5rem;background:linear-gradient(to bottom, #31FF0D, #31FF0D);border:none;border-bottom: 0.25rem outset #31FF0D}
 
 
-.contacts{ background: #FFD700; display:flex;flex-direction:column;justify-content:center;font-weight:normal;color;#C1C1C1;gap:3 rem;margin: 0 auto}
+.contacts{ background: #B1C5D9; display:flex;flex-direction:column;justify-content:center;font-weight:normal;color;#C1C1C1;gap:3 rem;margin: 0 auto}
 .emaillink{text-decoration:none;color: #000000}
 .whatsapplink,.tellink{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #00BFFF, #0078A2); 
 	color:#000000;padding:0.25rem 1rem 0.25rem 1rem;margin: 1rem auto;}
@@ -66,7 +67,7 @@ hr{width:100%;height:0.5rem;background-color:#FFD700;border:none}
 .mftppt{margin:0 auto}
 
 footer{background:linear-gradient(to bottom, #FFFFFF 95%, #FFFFFF);text-align:center; color:#FF8C00;margin-bottom:0;padding-bottom:0 }
-.endsection p{background: linear-gradient(to bottom,#CCCCCC 10%, #1874CD);background-clip: text;color: transparent;font-size:small;margin-bottom:0;padding-bottom:0}
+.endsection p{background: linear-gradient(to bottom,#F4F4F4 10%, #0078A2);background-clip: text;color: transparent;font-size:small;margin-bottom:0;padding-bottom:0}
 
 @media(min-width:1000px){.contactsbuttons{display: flex;} .emailrow input,.telephonerow input{width:30%;} textarea{width:40%}}
 @media(min-width:1000px).blinkingrequest{display: inline-block;white-space: nowrap;overflow: hidden;color: #1874CD;border-right: 5px solid #1874CD;width: 0;animation:typeCycle 15s 5s steps(20, end) infinite,blink 1s step-end infinite;}
