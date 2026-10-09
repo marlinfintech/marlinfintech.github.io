@@ -34,7 +34,7 @@ ul{list-style:none ;text-align:center;padding:0 3rem;margin-top:0.125rem}
 .previewbutton{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #B23AEE, #00BFFF); color:#31FF0D;padding:0.25rem 1rem 0.25rem 1rem; text-decoration: none;margin: 1rem auto;}
 
 .mftnote{border:3px solid #B1C5D9; border-radius:10px;background-color:#000000}
-.mftnote p,.mftnote h5{color:#0078A2}
+.mftnote p,.mftnote h5,.mftnote a{color:#0078A2}
 .mftnote h5{background: linear-gradient(135deg, #0078A2 0%,#0078A2 35%,#FFFFFF 50%,#0078A2 65%,#0078A2 100%);background-clip: text;color: transparent;background-size: 200% 100%;animation: shimmer 10s linear infinite;font-weight:bold}
 @keyframes shimmer { 0%{ background-position: 200% 0; } 100%{ background-position: -200% 0; } }
 .mftnote p {padding:0 0.5rem;}
