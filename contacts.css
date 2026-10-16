@@ -71,7 +71,7 @@ label{color:#1874CD;word-spacing:2px; line-height:1.5;font-weight:normal; margin
 
 .formrow {display: flex;flex-direction: column;margin: 0.5rem auto;}
 .options{display: grid;grid-template-columns: repeat(1, 1fr); gap:0.125rem;margin: 0 auto;place-items: center}
-textarea,.emailrow input,.telephonerow input{width:70%;font-size: 1.2rem;margin:0 auto;display: flex;flex-direction: column;border:none}
+textarea,.emailrow input,.telephonerow input{width:70%;font-size: 1.2rem;margin:0 auto;display: flex;flex-direction: column;border:none;font-family:mft-fonts-acme}
 textarea,input{background: #FFFFFF;color: #1874CD;}
 input::placeholder,textarea::placeholder {font-size: 1rem;font-style:italic;}
 
