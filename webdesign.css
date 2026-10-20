@@ -43,7 +43,7 @@ body{background:#FFFFFF}
 a {text-decoration: underline;color:#1874CD;}
 
 .header{display:flex;flex-direction:column; background:linear-gradient(to top, #FFFFFF 90%, #FFFFFF);position:relative;overflow:visible;}
-.header h4{background: linear-gradient(to bottom, #31FF0D 100%,  #00BFFF);background-clip: text;color: transparent;
+.header h3{background: linear-gradient(to bottom, #000000 100%,  #00BFFF);background-clip: text;color: transparent;
   padding: 0;margin: 0 auto;font-weight:bold;text-align:center;font-family:mft-fonts-patuaone;letter-spacing:0.046875rem}
 .logo {max-width: 75px; max-height: 75px;margin:0 auto}
 
@@ -61,8 +61,8 @@ border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-t
 .samecardscontainer{gap: 0.125rem;background:#B1C5D9}
 .webdesigncard{background:linear-gradient(to top, #B1C5D9 100%, #FF8C00);display: flex;flex-direction: column; justify-content: center;
   text-align: center;margin-bottom:2.5rem}
-.samecardscontainer p,ul{text-align: center; color:#141414;word-spacing:2px; line-height:1.5;font-weight:normal; padding:0 3rem;margin:0.25rem auto;font-family:mft-fonts-acme}
-.samecardscontainer h5{color:#000000; font-weight:bold;text-align: center;margin:0.125rem;padding-top:0.5rem;font-family:mft-fonts-acme}
+.samecardscontainer p,ul{text-align: center; color:#000000;word-spacing:2px; line-height:1.5;font-weight:normal; padding:0 3rem;margin:0.25rem auto;font-family:mft-fonts-acme}
+.samecardscontainer h5{color:#141414; font-weight:bold;text-align: center;margin:0.125rem;padding-top:0.5rem;font-family:mft-fonts-patuaone;letter-spacing:0.025rem}
 .samecardscontainer a{font-family:mft-fonts-acme}
 ul{list-style:none ;text-align:center;padding:0 3rem;margin-top:0.125rem}
 .designernote, .designernote p, .designernote h7{background:linear-gradient(to top, #FFD700 85%, #FFD700);color: #000000;font-size:1rem;font-style:italic}
@@ -79,4 +79,5 @@ footer{background:linear-gradient(to bottom, #FFFFFF 95%, #FFFFFF);text-align:ce
 
 @media(min-width:1000px){.webdesignbuttons{display: flex;}.imagegrid img,.videogrid video{width:70%}}
 
+@media(min-width:1000px){.header h3 , .webdesignbuttons h5, .samecardscontainer h5{font-weight:normal}}
 

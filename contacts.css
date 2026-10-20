@@ -43,7 +43,7 @@ body{background:#FFFFFF}
 a {text-decoration: underline;color:#1874CD}
 
 .header{display:flex;flex-direction:column; background:linear-gradient(to top, #FFFFFF 90%, #FFFFFF);position:relative;overflow:visible;}
-.header h4{background: linear-gradient(to bottom, #31FF0D 100%,  #00BFFF);background-clip: text;color: transparent;
+.header h3{background: linear-gradient(to bottom, #000000 100%,  #00BFFF);background-clip: text;color: transparent;
   padding: 0;margin: 0 auto;font-weight:bold;text-align:center;font-family:mft-fonts-patuaone;letter-spacing:0.046875rem}
 .logo {max-width: 75px; max-height: 75px;margin:0 auto}
 
@@ -66,6 +66,7 @@ border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-t
 
 label{color:#1874CD;word-spacing:2px; line-height:1.5;font-weight:normal; margin:0.25rem auto}
 .formtitle h5, .formrow h5,.contacts h5{color:#000000; font-weight:bold;text-align: center;}
+.formtitle h5{font-family:mft-fonts-patuaone;letter-spacing:0.025rem;color: #141414;}
 .formrow h5{margin-top:0.5rem}
 .contacts h5{color:#000000;margin:1rem auto}
 
@@ -77,7 +78,7 @@ input::placeholder,textarea::placeholder {font-size: 1rem;font-style:italic;}
 
 .actionbuttons{display:flex;flex-direction: row; margin: 0 auto;gap:2rem;justify-content: center;flex: 1;}
 .resetbutton,.submitbutton{border:none;text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #00BFFF, #0078A2); 
-color:#000000;padding:0.25rem 0.5rem 0.25rem 0.5rem; text-decoration: none;margin: 1rem auto;font-size:1rem;font-family:mft-fonts-patuaone;}
+color:#000000;padding:0.25rem 0.5rem 0.25rem 0.5rem; text-decoration: none;margin: 1rem auto;font-size:1rem;font-family:mft-fonts-acme;}
 .resetbutton:hover{background: #00BFFF}
 .submitbutton:hover{background: #00BFFF}
 
@@ -91,9 +92,9 @@ color:#000000;padding:0.25rem 0.5rem 0.25rem 0.5rem; text-decoration: none;margi
 	color:#000000;padding:0.25rem 0.5rem 0.25rem 0.5rem; text-decoration: none;margin: 1rem auto;}
 	.previewbutton:hover{background: #00BFFF}
 
-
 hr{width:100%;height:0.5rem;background:linear-gradient(to bottom, #31FF0D, #31FF0D);border:none;border-bottom: 0.25rem outset #31FF0D}
 
+@media(min-width:1000px){.header h3 , .contactsbuttons h5{font-weight:normal}}
 
 .contacts{ background: #B1C5D9; display:flex;flex-direction:column;justify-content:center;font-weight:normal;color;#C1C1C1;gap:3 rem;margin: 0 auto;}
 .emaillink{text-decoration:none;color: #000000;font-family:mft-fonts-patuaone}
@@ -110,4 +111,6 @@ footer{background:linear-gradient(to bottom, #FFFFFF 95%, #FFFFFF);text-align:ce
 @media(min-width:1000px).blinkingrequest{display: inline-block;white-space: nowrap;overflow: hidden;color: #1874CD;border-right: 5px solid #1874CD;width: 0;animation:typeCycle 15s 5s steps(20, end) infinite,blink 1s step-end infinite;}
 @keyframes typeCycle {0%   { width: 0; } 30%  { width: 20ch; } 90%  { width: 20ch; }100% { width: 0; }}
 @keyframes blink {50% { border-color: transparent; }} 
-#@media(min-width:1000px){.options{display: grid;grid-template-columns: repeat(3, 1fr); gap:0.125rem;margin: 0 auto;place-items: center}}#
+@media(min-width:1000px){.options{display: grid;grid-template-columns: repeat(3, 1fr); gap:0.125rem;margin: 0 auto;place-items: center}}
+
+@media(min-width:1000px){.formtitle h5{font-weight: normal;}}

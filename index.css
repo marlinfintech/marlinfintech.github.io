@@ -41,7 +41,7 @@ body{background:#FFFFFF}
 .gridcontainer{display:flex;flex-direction:column;word-wrap:break-word;overflow:visible;gap:0.125rem}
 
 .header{display:flex;flex-direction:column; background:linear-gradient(to top, #FFFFFF 90%, #FFFFFF);position:relative;overflow:visible;}
-.header h4{background: linear-gradient(to bottom, #31FF0D 100%,  #00BFFF);background-clip: text;color: transparent;
+.header h3{background: linear-gradient(to bottom,#000000 100%,  #00BFFF);background-clip: text;color: transparent;
   padding: 0;margin: 0 auto;font-weight:bold;text-align:center;font-family:mft-fonts-patuaone;letter-spacing:0.046875rem}
 .logo {max-width: 75px; max-height: 75px;margin:0 auto}
 
@@ -58,14 +58,14 @@ border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-t
 /*.button4,.button6{grid-column: span 2}*/
 
 .intro{background:linear-gradient(to top, #B1C5D9 100%, #FFD700)}
-.intro{text-align: center; color:#000000;word-spacing:2px; line-height:1.5;font-weight:normal; padding-left: 3rem;padding-right: 3rem;font-family:mft-fonts-acme}
+.intro{text-align: center; color:#141414;word-spacing:2px; line-height:1.5;font-weight:normal; padding-left: 3rem;padding-right: 3rem;font-family:mft-fonts-acme}
 
-.intro-sentence p{margin:0rem;color: #000000;padding: 0}
-.intro-list ul{list-style:none ;padding:0;color: #000000;display: grid;justify-content: center;margin: 0 auto}
+.intro-sentence p{margin:0rem;color: #141414;padding: 0}
+.intro-list ul{list-style:none ;padding:0;color: #141414;display: grid;justify-content: center;margin: 0 auto}
 .intro-list li{text-align: center}
-.intro{color:141414}
+.intro{color:#141414}
 
- .blinkingrequest{display: inline-block;white-space: nowrap;overflow: hidden;color: #000000;border-right: 5px solid #000000;width: 0;animation:typeCycle 15s 5s steps(15, end) infinite,blink 1s step-end infinite;font-family:mft-fonts-acme}
+ .blinkingrequest{display: inline-block;white-space: nowrap;overflow: hidden;color: #141414;border-right: 5px solid #141414;width: 0;animation:typeCycle 15s 5s steps(15, end) infinite,blink 1s step-end infinite;font-family:mft-fonts-acme}
 
 @keyframes typeCycle {0%   { width: 0; } 30%  { width: 14ch; } 90%  { width: 14ch; }100% { width: 0; }}
 
@@ -78,11 +78,11 @@ a {color:#141414 ; text-decoration: underline;}
 
 .allprojects{display:flex;flex-direction:column;word-wrap:break-word;gap: 0.125rem;overflow:hidden; row-gap:0.125rem;column-gap:0.125rem;}
 .dataanalyticscard,.networkscard,.graphicdesigncard,.webdesigncard{background:linear-gradient(to top, #B1C5D9 100%, #FF8C00);display: flex;flex-direction: column; justify-content: center;text-align: center;flex:1}
-.dataanalyticscard p,.networkscard p,.graphicdesigncard p,.webdesigncard p{text-align: center; color:#141414; 
+.dataanalyticscard p,.networkscard p,.graphicdesigncard p,.webdesigncard p{text-align: center; color:#000000; 
   font-family:serif;word-spacing:2px; line-height:1.5;font-weight:normal; padding:0 1rem;margin:0.25rem auto;font-family:mft-fonts-acme}
-.dataanalyticscard h3,.networkscard h3,.graphicdesigncard h3,.webdesigncard h3{color:#000000; font-weight:bold;text-align: center;margin:0.125rem;padding: 0;font-family:mft-fonts-acme}
+.dataanalyticscard h4,.networkscard h4,.graphicdesigncard h4,.webdesigncard h4{color:#141414; font-weight:bold;text-align: center;margin:0.125rem;padding: 0;font-family:mft-fonts-patuaone;letter-spacing:0.046875rem;}
 .viewbutton{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #00BFFF, #0078A2); color:#FFFFFF;
-  padding:0.25rem 0.5rem 0.25rem 0.5rem; text-decoration: none;margin:1rem auto;font-family:mft-fonts-patuaone;}
+  padding:0.25rem 0.5rem 0.25rem 0.5rem; text-decoration: none;margin:1rem auto;font-family:mft-fonts-acme;}
   .viewbutton:hover{background: #00BFFF}
   /*.viewbutton a{font-size:2rem}*/
 
@@ -100,7 +100,7 @@ footer{background:linear-gradient(to bottom, #FFFFFF 95%, #FFFFFF);text-align:ce
 
 /*.networkscard{grid-column:span 2}}*/
 
-@media(min-width:1000px){.viewbutton{font-weight:normal}}
+@media(min-width:1000px){.viewbutton a{font-weight:normal}}
 
-
+@media(min-width:1000px){.header h3 , .homepagebuttons h5, .dataanalyticscard h4,.networkscard h4,.graphicdesigncard h4,.webdesigncard h4{font-weight:normal}}
 
