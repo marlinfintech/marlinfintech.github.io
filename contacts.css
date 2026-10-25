@@ -43,19 +43,19 @@ body{background:#FFFFFF}
 a {text-decoration: underline;color:#1874CD}
 
 .header{display:flex;flex-direction:column; background:linear-gradient(to top, #FFFFFF 90%, #FFFFFF);position:relative;overflow:visible;}
-.header h3{background: linear-gradient(to bottom, #000000 100%,  #00BFFF);background-clip: text;color: transparent;
-  padding: 0;margin: 0 auto;font-weight:bold;text-align:center;font-family:mft-fonts-patuaone;letter-spacing:0.046875rem}
-.logo {max-width: 75px; max-height: 75px;margin:0 auto}
+.header h5{background: linear-gradient(to bottom, #000000 100%,  #00BFFF);background-clip: text;color: transparent;
+  padding: 0;margin: 0 auto;font-weight:bold;text-align:center;font-family:mft-fonts-patuaone;letter-spacing:0.046875rem;line-height:1;}
+.logo {max-width: 50px; max-height: 50px;margin:0 auto}
 
 .contactsbuttons{background:#31FF0D;text-align:center;margin: 0 auto; gap:0;padding: 0;display:grid;grid-template-columns:repeat(2, 1fr);font-family:mft-fonts-patuaone;letter-spacing:0.046875rem}
 .contactsbuttons h5{margin:0.125rem}
 
-.contactsbutton{background: #F4F4F4; font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
+.contactsbutton{background: #F4F4F4; font-weight:bold; padding-left: 0.25rem; padding-right: 0.25rem;border-left: 0.5rem groove #31FF0D;
 border-right: 0.5rem ridge #31FF0D;border-top: 0.5rem inset #31FF0D;border-bottom: 0.5rem outset #31FF0D;}
 .contactsbutton a{color:#000000}
 .contactsbutton:hover,.otherbuttons:hover{background: #FFD700}
 .otherbuttons a{color: #1874CD}
-.otherbuttons{font-weight:bold; padding-left: 0.5rem; padding-right: 0.5rem;border-left: 0.5rem groove #31FF0D;
+.otherbuttons{font-weight:bold; padding-left: 0.25rem; padding-right: 0.25rem;border-left: 0.5rem groove #31FF0D;
 border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-top: 0.5rem inset #31FF0D;background: #F4F4F4}
 /*.button4,.button6{grid-column: span 2}*/
 
@@ -114,3 +114,5 @@ footer{background:linear-gradient(to bottom, #FFFFFF 95%, #FFFFFF);text-align:ce
 @media(min-width:1000px){.options{display: grid;grid-template-columns: repeat(3, 1fr); gap:0.125rem;margin: 0 auto;place-items: center}}
 
 @media(min-width:1000px){.formtitle h5{font-weight: normal;}}
+
+@media(min-width:1000px){.header h5{font-weight:normal}}
