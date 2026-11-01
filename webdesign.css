@@ -44,7 +44,7 @@ a {text-decoration: underline;color:#1874CD;}
 
 .header{display:flex;flex-direction:column; background:linear-gradient(to top, #FFFFFF 90%, #FFFFFF);position:relative;overflow:visible;}
 .header h5{background: linear-gradient(to bottom, #000000 100%,  #00BFFF);background-clip: text;color: transparent;
-  padding: 0;margin: 0 auto;font-weight:bold;text-align:center;font-family:mft-fonts-patuaone;letter-spacing:0.046875rem;line-height:1;}
+  padding: 0;margin: 0 auto;font-weight:bold;text-align:center;font-family:mft-fonts-patuaone;letter-spacing:0.046875rem;line-height:1;-webkit-background-clip: text;}
 .logo {max-width: 50px; max-height: 50px;margin:0 auto}
 
 .webdesignbuttons{background:#31FF0D;text-align:center;margin: 0 auto; gap:0;padding: 0;display:grid;grid-template-columns:repeat(2, 1fr);font-family:mft-fonts-patuaone;letter-spacing:0.046875rem}
@@ -75,7 +75,7 @@ ul{list-style:none ;text-align:center;padding:0 3rem;margin-top:0.125rem}
 .contacts{ background: #FFD700; display:flex;justify-content:center;font-weight:normal;color;#1874CD;gap:3 rem}
 
 footer{background:linear-gradient(to bottom, #FFFFFF 95%, #FFFFFF);text-align:center; color:#FF8C00;margin-bottom:0;padding-bottom:0 }
-.endsection p{background: linear-gradient(to bottom,#F4F4F4 10%, #0078A2);background-clip: text;color: transparent;font-size:small;margin-bottom:0;padding-bottom:0;font-family:mft-fonts-ranchers}
+.endsection p{background: linear-gradient(to bottom,#F4F4F4 10%, #0078A2);background-clip: text;color: transparent;font-size:small;margin-bottom:0;padding-bottom:0;font-family:mft-fonts-ranchers;-webkit-background-clip: text;}
 
 @media(min-width:1000px){.webdesignbuttons{display: flex;}.imagegrid img,.videogrid video{width:70%}}
 

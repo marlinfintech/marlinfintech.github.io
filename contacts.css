@@ -44,7 +44,7 @@ a {text-decoration: underline;color:#1874CD}
 
 .header{display:flex;flex-direction:column; background:linear-gradient(to top, #FFFFFF 90%, #FFFFFF);position:relative;overflow:visible;}
 .header h5{background: linear-gradient(to bottom, #000000 100%,  #00BFFF);background-clip: text;color: transparent;
-  padding: 0;margin: 0 auto;font-weight:bold;text-align:center;font-family:mft-fonts-patuaone;letter-spacing:0.046875rem;line-height:1;}
+  padding: 0;margin: 0 auto;font-weight:bold;text-align:center;font-family:mft-fonts-patuaone;letter-spacing:0.046875rem;line-height:1;-webkit-background-clip: text;}
 .logo {max-width: 50px; max-height: 50px;margin:0 auto}
 
 .contactsbuttons{background:#31FF0D;text-align:center;margin: 0 auto; gap:0;padding: 0;display:grid;grid-template-columns:repeat(2, 1fr);font-family:mft-fonts-patuaone;letter-spacing:0.046875rem}
@@ -105,7 +105,7 @@ hr{width:100%;height:0.5rem;background:linear-gradient(to bottom, #31FF0D, #31FF
 .mftppt{margin:0 auto}
 
 footer{background:linear-gradient(to bottom, #FFFFFF 95%, #FFFFFF);text-align:center; color:#FF8C00;margin-bottom:0;padding-bottom:0 }
-.endsection p{background: linear-gradient(to bottom,#F4F4F4 10%, #0078A2);background-clip: text;color: transparent;font-size:small;margin-bottom:0;padding-bottom:0;font-family:mft-fonts-ranchers}
+.endsection p{background: linear-gradient(to bottom,#F4F4F4 10%, #0078A2);background-clip: text;color: transparent;font-size:small;margin-bottom:0;padding-bottom:0;font-family:mft-fonts-ranchers;-webkit-background-clip: text;}
 
 @media(min-width:1000px){.contactsbuttons{display: flex;} .emailrow input,.telephonerow input{width:30%;} textarea{width:40%}}
 @media(min-width:1000px).blinkingrequest{display: inline-block;white-space: nowrap;overflow: hidden;color: #1874CD;border-right: 5px solid #1874CD;width: 0;animation:typeCycle 15s 5s steps(20, end) infinite,blink 1s step-end infinite;}
