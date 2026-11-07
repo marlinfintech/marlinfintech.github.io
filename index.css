@@ -25,20 +25,20 @@ body{background:#FFFFFF}
 .gridcontainer{display:flex;flex-direction:column;word-wrap:break-word;overflow:visible;gap:0.125rem}
 
 .header{display:flex;flex-direction:column; background:linear-gradient(to top, #FFFFFF 90%, #FFFFFF);position:relative;overflow:visible;margin:0;padding:0}
-.header h5{background: linear-gradient(to bottom,#000000 100%,  #00BFFF);background-clip: text;color: transparent;
+.header h5{background: linear-gradient(to bottom,#FFD700 25%,  #31FF0D);background-clip: text;color: transparent;
   padding: 0;margin: 0 auto;font-weight:bold;text-align:center;font-family:mft-fonts-patuaone;letter-spacing:0.046875rem;line-height:1;-webkit-background-clip: text;}
 .logo {max-width: 50px; max-height: 50px;margin:0 auto}
 
 .homepagebuttons{background:#31FF0D;text-align:center;margin: 0 auto; gap:0;padding: 0;display:grid;grid-template-columns:repeat(3, 1fr);font-family:mft-fonts-patuaone;letter-spacing:0.046875rem}
 .homepagebuttons h5{margin:0.125rem;}
 
-.homepagebutton{background: #F4F4F4; font-weight:bold; padding-left: 0.25rem; padding-right: 0.25rem;border-left: 0.5rem groove #31FF0D;
+.homepagebutton{background: #FFFFFF; font-weight:bold; padding-left: 0.25rem; padding-right: 0.25rem;border-left: 0.5rem groove #31FF0D;
 border-right: 0.5rem ridge #31FF0D;border-top: 0.5rem inset #31FF0D;border-bottom: 0.5rem outset #31FF0D;}
 .homepagebutton:hover,.otherbuttons:hover{background: #FFD700}
 .homepagebutton a{color:#000000}
 .otherbuttons a{color: #1874CD}
 .otherbuttons{font-weight:bold; padding-left: 0.25rem; padding-right: 0.25rem;border-left: 0.5rem groove #31FF0D;
-border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-top: 0.5rem inset #31FF0D;background: #F4F4F4}
+border-right: 0.5rem ridge #31FF0D;border-bottom: 0.5rem outset #31FF0D;border-top: 0.5rem inset #31FF0D;background: #FFFFFF}
 /*.button4,.button6{grid-column: span 2}*/
 
 .intro{background:linear-gradient(to top, #B1C5D9 100%, #FFD700)}
