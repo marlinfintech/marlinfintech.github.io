@@ -31,7 +31,7 @@ a {text-decoration: underline;color:#1874CD;}
   padding: 0;margin: 0 auto;font-weight:bold;text-align:center;font-family:mft-fonts-patuaone;letter-spacing:0.046875rem;line-height:1;-webkit-background-clip: text;}
 .logo {max-width: 50px; max-height: 50px;margin:0 auto}
 
-.webdesignbuttons{background:#31FF0D;text-align:center;margin: 0 auto; gap:0;padding: 0;display:grid;grid-template-columns:repeat(2, 1fr);font-family:mft-fonts-patuaone;letter-spacing:0.046875rem}
+.webdesignbuttons{background:#31FF0D;text-align:center;margin: 0 auto; gap:0;padding: 0;display:grid;grid-template-columns:repeat(3, 1fr);font-family:mft-fonts-patuaone;letter-spacing:0.046875rem}
 .webdesignbuttons h5{margin:0.125rem}
 .webdesignbutton{background: #F4F4F4; font-weight:bold; padding-left: 0.25rem; padding-right: 0.25rem;border-left: 0.5rem groove #31FF0D;
 border-right: 0.5rem ridge #31FF0D;border-top: 0.5rem inset #31FF0D;border-bottom: 0.5rem outset #31FF0D;}
